@@ -75,10 +75,8 @@ public class Inventory {
         	}
         	
             System.out.println("\n--- Item List ---");
-            for (Main Main : item) {
                 displayItems();
                 System.out.println("------------------------\n");
-            }
         	
         }
 		
@@ -118,5 +116,6 @@ public class Inventory {
 		    }
 		}
 	}
+
 
 
